@@ -18,7 +18,7 @@ def spaceWars():
     listaInimigo = []  # criar lista de inimigos
     posxAlien = 10  # posição no eixo x inicial dos aliens
     posyAlien = 50  # posição no eixo y inicial dos aliens
-    for ini in range(10):  # loop para colocar os aliens em uma lista
+    for ini in range(10):  # loop para colocar os aliens em uma lista com posiçôes diferentes
         posxAlien += 80
         inimigo = Alien("imagens/alien.png", posxAlien, posyAlien, 10)
         listaInimigo.append(inimigo)
